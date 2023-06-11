@@ -1,0 +1,35 @@
+<supermercado>
+  <nombre>Mercadona</nombre>
+  <direccion>Avenida Principal, 456</direccion>
+  <geolocalizacion>
+    <latitud>40.987654</latitud>
+    <longitud>-3.123456</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <seccion>fruteria</seccion>
+      <nombre>Plátanos</nombre>
+      <oferta>true</oferta>
+      <vigencia>2023-06-15</vigencia>
+      <unidad>kg</unidad>
+      <precio>1.49</precio>
+      <adquirido>true</adquirido>
+    </producto>
+    <producto>
+      <seccion>charcuteria</seccion>
+      <nombre>Chorizo</nombre>
+      <oferta>false</oferta>
+      <unidad>unidad</unidad>
+      <precio>2.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <seccion>hogar</seccion>
+      <nombre>Papel higiénico</nombre>
+      <oferta>false</oferta>
+      <unidad>paquete</unidad>
+      <precio>3.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+  </productos>
+</supermercado>

@@ -1,0 +1,76 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Lidl",
+        "direccion": "Calle Principal, 123",
+        "geolocalizacion": {
+          "latitud": 40.123456,
+          "longitud": -3.654321
+        },
+        "productos": [
+          {
+            "seccion": "fruteria",
+            "producto": "Manzanas",
+            "oferta": true,
+            "vigencia": "2023-06-15",
+            "unidad": "kg",
+            "precio": 1.99,
+            "adquirido": false
+          },
+          {
+            "seccion": "charcuteria",
+            "producto": "Jamón serrano",
+            "oferta": false,
+            "unidad": "kg",
+            "precio": 8.99,
+            "adquirido": false
+          },
+          {
+            "seccion": "hogar",
+            "producto": "Detergente",
+            "oferta": true,
+            "vigencia": "2023-06-30",
+            "unidad": "unidad",
+            "precio": 2.49,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+        "nombre": "Mercadona",
+        "direccion": "Avenida Principal, 456",
+        "geolocalizacion": {
+          "latitud": 40.987654,
+          "longitud": -3.123456
+        },
+        "productos": [
+          {
+            "seccion": "fruteria",
+            "producto": "Plátanos",
+            "oferta": true,
+            "vigencia": "2023-06-15",
+            "unidad": "kg",
+            "precio": 1.49,
+            "adquirido": true
+          },
+          {
+            "seccion": "charcuteria",
+            "producto": "Chorizo",
+            "oferta": false,
+            "unidad": "unidad",
+            "precio": 2.99,
+            "adquirido": false
+          },
+          {
+            "seccion": "hogar",
+            "producto": "Papel higiénico",
+            "oferta": false,
+            "unidad": "paquete",
+            "precio": 3.99,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  

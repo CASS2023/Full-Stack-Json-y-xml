@@ -1,0 +1,36 @@
+<supermercado>
+  <nombre>Lidl</nombre>
+  <direccion>Calle Principal, 123</direccion>
+  <geolocalizacion>
+    <latitud>40.123456</latitud>
+    <longitud>-3.654321</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <seccion>fruteria</seccion>
+      <nombre>Manzanas</nombre>
+      <oferta>true</oferta>
+      <vigencia>2023-06-15</vigencia>
+      <unidad>kg</unidad>
+      <precio>1.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <seccion>charcuteria</seccion>
+      <nombre>Jamón serrano</nombre>
+      <oferta>false</oferta>
+      <unidad>kg</unidad>
+      <precio>8.99</precio>
+      <adquirido>false</adquirido>
+    </producto>
+    <producto>
+      <seccion>hogar</seccion>
+      <nombre>Detergente</nombre>
+      <oferta>true</oferta>
+      <vigencia>2023-06-30</vigencia>
+      <unidad>unidad</unidad>
+      <precio>2.49</precio>
+      <adquirido>true</adquirido>
+    </producto>
+  </productos>
+</supermercado>
